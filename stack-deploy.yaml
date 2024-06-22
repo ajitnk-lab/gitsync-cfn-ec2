@@ -1,4 +1,0 @@
-template-file-path: tem,yaml
-parameters:
-  AMI: sd
-tags: {}
