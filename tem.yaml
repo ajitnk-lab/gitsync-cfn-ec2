@@ -3,7 +3,7 @@ Parameters:
   AMI:
     Type: AWS::EC2::Image::Id
     Description: AMI ID for the EC2 instance
-    Default: ami-0e1d06225679bc1c5
+    Default: "ami-0e1d06225679bc1c5"
 Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
