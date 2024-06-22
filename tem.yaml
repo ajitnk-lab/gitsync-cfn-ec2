@@ -1,0 +1,5 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Parameters:
+ AMI:
+    Type: AWS::EC2::Image::Id
+    Description: AMI ID for the EC2 instance
