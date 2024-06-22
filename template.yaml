@@ -1,4 +1,5 @@
 template-file-path: template.yaml
 parameters:
-  AMI: ami-0e1d06225679bc1c4
-tags: {}
+ AMI:
+    Type: AWS::EC2::Image::Id
+    Description: AMI ID for the EC2 instance
