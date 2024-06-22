@@ -1,4 +1,4 @@
 template-file-path: tem.yaml
 parameters:
-InstanceTypeParameter : t2.micro
+InstanceTypeParameter : t4g.small
 tags: {}
