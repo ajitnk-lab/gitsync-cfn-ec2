@@ -1,5 +1,0 @@
-template-file-path: tem.yaml
-
-parameters:
-InstanceTypeParameter : t4g.small
-tags: {}
