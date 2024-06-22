@@ -1,7 +1,17 @@
 AWSTemplateFormatVersion: '2010-09-09'
+Parameters:
+  InstanceTypeParameter:
+    Type: String
+    Default: t2.micro
+    AllowedValues:
+      - t2.micro
+      - m1.small
+      - m1.large
+    Description: Enter t2.micro, m1.small, or m1.large. Default is t2.micro.
 Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-0e1d06225679bc1c5
-      InstanceType: t2.micro
+      InstanceType: 
+        Ref: InstanceTypeParameter
