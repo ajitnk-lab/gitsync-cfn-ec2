@@ -1,12 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Parameters:
-  AMI:
-    Type: String
-    Description: AMI ID for the EC2 instance
-    Default: "ami-0e1d06225679bc1c5"
 Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: !Ref AMI
+      ImageId: ami-0e1d06225679bc1c5
       InstanceType: t2.micro
